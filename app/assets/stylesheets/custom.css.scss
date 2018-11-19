@@ -13,13 +13,22 @@ $navbar-default-bg: rgb(140,200,200);
   height: 300px;
 }
 
-.jumbotron h1,h2 {
+.jumbotron h1 {
   color: #fff;
   text-align:center;
   margin-bottom: 30px;
   letter-spacing: -1px;
   font-weight:bold;
 }
+
+.jumbotron h2 {
+  color: #fff;
+  text-align:center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight:bold;
+}
+
 
 #logo {
   float: left;
@@ -46,15 +55,31 @@ $navbar-default-bg: rgb(140,200,200);
 
 .footer {
   background-color: rgb(160,220,220);
-  margin-left:none;
-  margin-right:none;
-  margin-bottom:none;
-  margin-top: 250px;
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
 }
 
+footer a {
+  color: #555;
+}
 
+footer a:hover{
+  color: #222;
+}
 
+footer small {
+  float:left;
+}
 
+footer ul {
+  float: right;
+}
+
+footer ul li {
+  float:left;
+  margin-left: 15px;
+}
 
 
 
