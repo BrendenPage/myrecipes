@@ -6,7 +6,13 @@
   </div>
 </div>
 
+<div class="center">
+<%= will_paginate @chef_recipes %>  
+</div>
 <h4 align="center">
   <%= @chef.chefname%>'s Recipes
 </h4>
-<%= render 'recipes/recipe', obj: @chef.recipes %>
+<%= render 'recipes/recipe', obj: @chef_recipes %>
+<div class="center">
+<%= will_paginate @chef_recipes %>  
+</div>
