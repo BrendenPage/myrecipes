@@ -10,12 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_12_14_032327) do
+ActiveRecord::Schema.define(version: 2019_02_10_225445) do
 
   create_table "chefs", force: :cascade do |t|
     t.string "chefname"
     t.string "email"
     t.string "password_digest"
+    t.boolean "admin", default: false
   end
 
   create_table "recipes", force: :cascade do |t|
